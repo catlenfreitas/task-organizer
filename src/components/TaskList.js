@@ -8,8 +8,8 @@ function TaskList({ tasks, onToggle, onDelete }) {
             <span style={{ textDecoration: task.completed ? 'line-through' : 'none'}}>
                {task.name} 
             </span>
-            <button onClick={() => onToggle(task.id)}>✅</button>
-            <button onClick={() => onDelete(task.id)}>❌</button>
+            <button onClick={() => onToggle(task.id)}>Concluído ✅</button>
+            <button onClick={() => onDelete(task.id)}>Excluir ❌</button>
         </li>
       ))}
     </ul>
