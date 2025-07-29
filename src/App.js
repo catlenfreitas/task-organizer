@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Organizador de Estudos</h1>
+      <h1>Check List - Tarefas diárias</h1>
 
       <div className="progress-container">
         <p className="progress-text">Progresso: {progress}%</p>
